@@ -16,7 +16,7 @@
 
 ## 🚀 Demo
 > [!CAUTION]
-> Check out the live demo [here](https://satzzdev.github.io/Glassmorphism-Admin-Dashboard) (Please add your deployment link)
+> Check out the live demo [here](https://satzzdev.github.io/Glassmorphism-Admin-Dashboard)
 
 
 
