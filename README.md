@@ -1,28 +1,31 @@
 # Glassmorphism Admin Dashboard
 
-A modern and stylish admin dashboard featuring glassmorphism design principles, built with clean and efficient code.
+> [!NOTE] 
+> A modern and stylish admin dashboard featuring glassmorphism design principles, built with clean and efficient code.
 
 ![Desktop](https://github.com/user-attachments/assets/2addbab0-7d35-4ac1-8b7a-13a8a7a8cdee)
 
 ## 🌟 Features
-
-- Modern glassmorphism design
-- Responsive layout for all devices
-- Interactive dashboard components
-- Clean and organized UI elements
-- Smooth animations and transitions
-- Easy to customize and extend
+> [!TIP]
+> - Modern glassmorphism design
+> - Responsive layout for all devices
+> - Interactive dashboard components
+> - Clean and organized UI elements
+> - Smooth animations and transitions
+> - Easy to customize and extend
 
 ## 🚀 Demo
+> [!CAUTION]
+> Check out the live demo [here](https://satzzdev.github.io/Glassmorphism-Admin-Dashboard) (Please add your deployment link)
 
-Check out the live demo [here](#) (Please add your deployment link)
 
-## 💻 Technologies Used
 
-- HTML5
-- CSS3 (with glassmorphism effects)
-- JavaScript
-- [Other frameworks/libraries used in your project]
+ ## 💻 Technologies Used
+> [!IMPORTANT]
+> - HTML5
+> - CSS3 (with glassmorphism effects)
+> - JavaScript
+< - [Other frameworks/libraries used in your project]
 
 ## 🛠️ Installation
 
