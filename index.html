@@ -213,7 +213,7 @@ return this.currentPage === page;
 
 <div class="nav-links flex flex-col flex-1">
 <template x-for="page in pages" :key="page.id">
-<div class="nav-item flex items-center px-4 py-3 my-1 rounded-xl cursor-pointer transition-all hover:bg-violet-500"  :class="{ 'bg-violet-500': isActive(page.id) }" @click="navigateTo(page.id)">
+<div class="nav-item flex items-center px-4 py-3 my-1 rounded-xl cursor-pointer transition duration-300 ease-in-out hover:-translate-y-1 hover:scale-105 hover:bg-violet-500"  :class="{ 'bg-violet-500': isActive(page.id) }" @click="navigateTo(page.id)">
 <i :class="'fas ' + page.icon + ' text-base mr-3 w-6 text-center'"></i>
 <span x-text="page.name"></span>
 </div>
@@ -247,11 +247,11 @@ class="sidebar-glass rounded-2xl p-5 fixed left-0 top-0 h-full w-64 z-50 flex fl
 <div class="nav-links flex flex-col flex-1">
 <template x-for="page in pages" :key="page.id">
 <div 
-class="nav-item flex items-center px-4 py-3 my-1 rounded-xl cursor-pointer transition-all hover:bg-violet-500" 
+class="nav-item flex items-center px-4 py-3 my-1 rounded-xl cursor-pointer transition duration-300 ease-in-out hover:-translate-y-1 hover:scale-105 hover:bg-violet-500 hover:bg-violet-500" 
 :class="{ 'bg-violet-500': isActive(page.id) }"
 @click="navigateTo(page.id)"
 >
-<i :class="'fas ' + page.icon + ' text-lg mr-3 w-6 text-center'"></i>
+<i :class="'fas ' + page.icon + ' text-lg mr-3 w-6 text-center '"></i>
 <span x-text="page.name"></span>
 </div>
 </template>
@@ -297,7 +297,7 @@ class="nav-item flex items-center px-4 py-3 my-1 rounded-xl cursor-pointer trans
 <!-- Stats Cards -->
 <div class="stats grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
 <template x-for="stat in stats" :key="stat.title">
-<div class="card-glass rounded-2xl p-6 transition-transform hover:-translate-y-2">
+<div class="card-glass rounded-2xl p-6 cursor-pointer transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-105">
 <div class="stat-header flex justify-between items-center mb-4">
 <h3 class="font-medium" x-text="stat.title"></h3>
 <i :class="'fas ' + stat.icon + ' text-xl opacity-80'"></i>
@@ -439,7 +439,7 @@ class="nav-item flex items-center px-4 py-3 my-1 rounded-xl cursor-pointer trans
 <h1 class="text-2xl font-semibold mb-6">Manajemen Pesanan</h1>
 
 <div class="stats grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 mb-6">
-<div class="card-glass rounded-2xl p-6">
+<div class="card-glass rounded-2xl p-6 cursor-pointer transition duration-300 ease-in-out hover:-translate-y-1 hover:scale-105">
 <div class="stat-header flex justify-between items-center mb-4">
 <h3 class="font-medium">Total Pesanan</h3>
 <i class="fas fa-shopping-cart text-xl opacity-80"></i>
@@ -450,7 +450,7 @@ class="nav-item flex items-center px-4 py-3 my-1 rounded-xl cursor-pointer trans
 </div>
 </div>
 
-<div class="card-glass rounded-2xl p-6">
+<div class="card-glass rounded-2xl p-6 cursor-pointer transition duration-300 ease-in-out hover:-translate-y-1 hover:scale-105">
 <div class="stat-header flex justify-between items-center mb-4">
 <h3 class="font-medium">Pesanan Diproses</h3>
 <i class="fas fa-sync-alt text-xl opacity-80"></i>
@@ -461,7 +461,7 @@ class="nav-item flex items-center px-4 py-3 my-1 rounded-xl cursor-pointer trans
 </div>
 </div>
 
-<div class="card-glass rounded-2xl p-6">
+<div class="card-glass rounded-2xl p-6 cursor-pointer transition duration-300 ease-in-out hover:-translate-y-1 hover:scale-105">
 <div class="stat-header flex justify-between items-center mb-4">
 <h3 class="font-medium">Pesanan Dikirim</h3>
 <i class="fas fa-truck text-xl opacity-80"></i>
@@ -472,7 +472,7 @@ class="nav-item flex items-center px-4 py-3 my-1 rounded-xl cursor-pointer trans
 </div>
 </div>
 
-<div class="card-glass rounded-2xl p-6">
+<div class="card-glass rounded-2xl p-6 cursor-pointer transition duration-300 ease-in-out hover:-translate-y-1 hover:scale-105">
 <div class="stat-header flex justify-between items-center mb-4">
 <h3 class="font-medium">Pesanan Selesai</h3>
 <i class="fas fa-check-circle text-xl opacity-80"></i>
